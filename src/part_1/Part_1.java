@@ -16,7 +16,7 @@ public class Part_1 {
     public static void main(String[] args) {
         Registration registration = new Registration();
          Login login = new Login(registration);
-        registration.setVisible(true);
+        login.setVisible(true);
                 
     }
     
